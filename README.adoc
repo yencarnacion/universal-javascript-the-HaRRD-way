@@ -1,0 +1,44 @@
+
+== universal-javascript-the-HaRRD-way
+HaRRD = Hapi.js + React + Redux + Database app
+
+=== What is this about
+universal-javascript-the-HaRRD-way is a work in progress.
+Here, I am using the latest technologies such as hapi.js ( http://hapijs.com ),
+react ( https://github.com/facebook/react ),
+redux ( http://redux.js.org ), and
+ES2015 ( https://en.wikipedia.org/wiki/ECMAScript ) to create an isomorphic
+(aka. universal or server rendered) node.js ( https://nodejs.org/ ) app.
+
+=== License
+The MIT license.  See LICENSE.txt
+
+=== What is needed to run the program
+You must have node.js, npm, and gulp installed.
+See DEPENDENCIES.adoc.
+
+=== How to run
+.To get this project working, perform the minimum steps:
+----
+ $ npm install
+ $ gulp
+----
+To see results point your browser to http://localhost:4000/
+Type `201508` in the date box and hit 'Go'.
+
+To see server side rendering in action type (in a open terminal)
+`curl http://localhost:4000/2015/7`
+
+=== If you got this far, what are you looking at?
+You are looking at Puerto Rico's top import/export destinations by year and month.
+The data comes from the Puerto Rico Statistics Institute.  The database used can be
+found at
+http://www.estadisticas.pr/iepr/Estadisticas/Basesdedatos/Economia.aspx#CEPR
+
+If you are feeling underwhelmed at the lack of graphics remember this is only a proof of concept.
+
+=== Clean up when you are done
+.Perform these steps:
+----
+ $ To stop the hapi.js server hit Ctrl-C at the command line where the gulp process is running
+----

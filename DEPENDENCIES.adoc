@@ -1,0 +1,6 @@
+== universal-javascript-the-HaRRD-way Project Dependencies
+
+=== What you need to run
+.Download and install the following:
+* install node.js from https://nodejs.org/en/download/
+* install gulp `npm install gulp -g`
